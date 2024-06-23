@@ -1,0 +1,648 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "isExtraImport": true,
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Core.asgi",
+        "description": "Core.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "Core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-u0obd+w5@pt2!g30o%y$=@8u7w#b-j&8$v2s_g2d@alhltxu9*'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-u0obd+w5@pt2!g30o%y$=@8u7w#b-j&8$v2s_g2d@alhltxu9*'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'CV',",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'CV',\n]\nMIDDLEWARE = [",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'Core.urls'",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "ROOT_URLCONF = 'Core.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'Core.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "Core.settings",
+        "description": "Core.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Core.urls",
+        "description": "Core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', home, name = 'home'),  \n    path('resume/', gen_resume, name = 'resume'), \n    path('admin/', admin.site.urls),\n]",
+        "detail": "Core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Core.wsgi",
+        "description": "Core.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "Core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "CvConfig",
+        "kind": 6,
+        "importPath": "CV.apps",
+        "description": "CV.apps",
+        "peekOfCode": "class CvConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'CV'",
+        "detail": "CV.apps",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "def home(request): \n\treturn render(request, 'index.html') \ndef gen_resume(request): \n\tif request.method == 'POST': \n\t\tname = request.POST.get('name', '') \n\t\tabout = request.POST.get('about', '') \n\t\tage = request.POST.get('age', '') \n\t\temail = request.POST.get('email', '') \n\t\tphone = request.POST.get('phone', '') \n\t\tskill1 = request.POST.get('skill1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "gen_resume",
+        "kind": 2,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "def gen_resume(request): \n\tif request.method == 'POST': \n\t\tname = request.POST.get('name', '') \n\t\tabout = request.POST.get('about', '') \n\t\tage = request.POST.get('age', '') \n\t\temail = request.POST.get('email', '') \n\t\tphone = request.POST.get('phone', '') \n\t\tskill1 = request.POST.get('skill1', '') \n\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tname",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tname = request.POST.get('name', '') \n\t\tabout = request.POST.get('about', '') \n\t\tage = request.POST.get('age', '') \n\t\temail = request.POST.get('email', '') \n\t\tphone = request.POST.get('phone', '') \n\t\tskill1 = request.POST.get('skill1', '') \n\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tabout",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tabout = request.POST.get('about', '') \n\t\tage = request.POST.get('age', '') \n\t\temail = request.POST.get('email', '') \n\t\tphone = request.POST.get('phone', '') \n\t\tskill1 = request.POST.get('skill1', '') \n\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') \n\t\tdegree1 = request.POST.get('degree1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tage",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tage = request.POST.get('age', '') \n\t\temail = request.POST.get('email', '') \n\t\tphone = request.POST.get('phone', '') \n\t\tskill1 = request.POST.get('skill1', '') \n\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') \n\t\tdegree1 = request.POST.get('degree1', '') \n\t\tcollege1 = request.POST.get('college1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\temail",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\temail = request.POST.get('email', '') \n\t\tphone = request.POST.get('phone', '') \n\t\tskill1 = request.POST.get('skill1', '') \n\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') \n\t\tdegree1 = request.POST.get('degree1', '') \n\t\tcollege1 = request.POST.get('college1', '') \n\t\tyear1 = request.POST.get('year1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tphone",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tphone = request.POST.get('phone', '') \n\t\tskill1 = request.POST.get('skill1', '') \n\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') \n\t\tdegree1 = request.POST.get('degree1', '') \n\t\tcollege1 = request.POST.get('college1', '') \n\t\tyear1 = request.POST.get('year1', '') \n\t\tdegree2 = request.POST.get('degree2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tskill1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tskill1 = request.POST.get('skill1', '') \n\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') \n\t\tdegree1 = request.POST.get('degree1', '') \n\t\tcollege1 = request.POST.get('college1', '') \n\t\tyear1 = request.POST.get('year1', '') \n\t\tdegree2 = request.POST.get('degree2', '') \n\t\tcollege2 = request.POST.get('college2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tskill2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tskill2 = request.POST.get('skill2', '') \n\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') \n\t\tdegree1 = request.POST.get('degree1', '') \n\t\tcollege1 = request.POST.get('college1', '') \n\t\tyear1 = request.POST.get('year1', '') \n\t\tdegree2 = request.POST.get('degree2', '') \n\t\tcollege2 = request.POST.get('college2', '') \n\t\tyear2 = request.POST.get('year2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tskill3",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tskill3 = request.POST.get('skill3', '') \n\t\tskill4 =request.POST.get('skill4', '') \n\t\tskill5 =request.POST.get('skill5', '') \n\t\tdegree1 = request.POST.get('degree1', '') \n\t\tcollege1 = request.POST.get('college1', '') \n\t\tyear1 = request.POST.get('year1', '') \n\t\tdegree2 = request.POST.get('degree2', '') \n\t\tcollege2 = request.POST.get('college2', '') \n\t\tyear2 = request.POST.get('year2', '') \n\t\tcollege3 = request.POST.get('college3', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdegree1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tdegree1 = request.POST.get('degree1', '') \n\t\tcollege1 = request.POST.get('college1', '') \n\t\tyear1 = request.POST.get('year1', '') \n\t\tdegree2 = request.POST.get('degree2', '') \n\t\tcollege2 = request.POST.get('college2', '') \n\t\tyear2 = request.POST.get('year2', '') \n\t\tcollege3 = request.POST.get('college3', '') \n\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcollege1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tcollege1 = request.POST.get('college1', '') \n\t\tyear1 = request.POST.get('year1', '') \n\t\tdegree2 = request.POST.get('degree2', '') \n\t\tcollege2 = request.POST.get('college2', '') \n\t\tyear2 = request.POST.get('year2', '') \n\t\tcollege3 = request.POST.get('college3', '') \n\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tyear1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tyear1 = request.POST.get('year1', '') \n\t\tdegree2 = request.POST.get('degree2', '') \n\t\tcollege2 = request.POST.get('college2', '') \n\t\tyear2 = request.POST.get('year2', '') \n\t\tcollege3 = request.POST.get('college3', '') \n\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdegree2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tdegree2 = request.POST.get('degree2', '') \n\t\tcollege2 = request.POST.get('college2', '') \n\t\tyear2 = request.POST.get('year2', '') \n\t\tcollege3 = request.POST.get('college3', '') \n\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcollege2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tcollege2 = request.POST.get('college2', '') \n\t\tyear2 = request.POST.get('year2', '') \n\t\tcollege3 = request.POST.get('college3', '') \n\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tyear2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tyear2 = request.POST.get('year2', '') \n\t\tcollege3 = request.POST.get('college3', '') \n\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcollege3",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tcollege3 = request.POST.get('college3', '') \n\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tyear3",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tyear3 = request.POST.get('year3', '') \n\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdegree3",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tdegree3 = request.POST.get('degree3', '') \n\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tlang1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tlang1 = request.POST.get('lang1', '') \n\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tlang2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tlang2 = request.POST.get('lang2', '') \n\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tlang3",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tlang3 = request.POST.get('lang3', '')\t \n\t\tproject1= request.POST.get('project1', '') \n\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdurat1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tdurat1 = request.POST.get('duration1', '') \n\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdesc1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tdesc1 = request.POST.get('desc1', '') \n\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tproject2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tproject2 = request.POST.get('project2', '') \n\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdurat2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tdurat2 = request.POST.get('duration2', '') \n\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdesc2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tdesc2 = request.POST.get('desc2', '') \n\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcompany1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tcompany1 = request.POST.get('company1', '') \n\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tpost1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tpost1 = request.POST.get('post1', '') \n\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tduration1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tduration1 = request.POST.get('duration1', '') \n\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tlin11",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tlin11 = request.POST.get('lin11', '') \n\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcompany2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tcompany2 = request.POST.get('company2', '') \n\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, \n\t\t\t\t\t\t\t\t\t\t\t'age':age, 'email':email, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tpost2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tpost2 = request.POST.get('post2', '') \n\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, \n\t\t\t\t\t\t\t\t\t\t\t'age':age, 'email':email, \n\t\t\t\t\t\t\t\t\t\t\t'phone':phone, 'skill1':skill1, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tduration2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tduration2 = request.POST.get('duration2', '') \n\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, \n\t\t\t\t\t\t\t\t\t\t\t'age':age, 'email':email, \n\t\t\t\t\t\t\t\t\t\t\t'phone':phone, 'skill1':skill1, \n\t\t\t\t\t\t\t\t\t\t\t'skill2':skill2, 'skill3':skill3, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tlin21",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tlin21 = request.POST.get('lin21', '') \n\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, \n\t\t\t\t\t\t\t\t\t\t\t'age':age, 'email':email, \n\t\t\t\t\t\t\t\t\t\t\t'phone':phone, 'skill1':skill1, \n\t\t\t\t\t\t\t\t\t\t\t'skill2':skill2, 'skill3':skill3, \n\t\t\t\t\t\t\t\t\t\t\t'skill4':skill4, 'degree1':degree1, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tach1",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tach1 = request.POST.get('ach1', '') \n\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, \n\t\t\t\t\t\t\t\t\t\t\t'age':age, 'email':email, \n\t\t\t\t\t\t\t\t\t\t\t'phone':phone, 'skill1':skill1, \n\t\t\t\t\t\t\t\t\t\t\t'skill2':skill2, 'skill3':skill3, \n\t\t\t\t\t\t\t\t\t\t\t'skill4':skill4, 'degree1':degree1, \n\t\t\t\t\t\t\t\t\t\t\t'college1':college1, 'year1':year1, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tach2",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tach2 = request.POST.get('ach2', '') \n\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, \n\t\t\t\t\t\t\t\t\t\t\t'age':age, 'email':email, \n\t\t\t\t\t\t\t\t\t\t\t'phone':phone, 'skill1':skill1, \n\t\t\t\t\t\t\t\t\t\t\t'skill2':skill2, 'skill3':skill3, \n\t\t\t\t\t\t\t\t\t\t\t'skill4':skill4, 'degree1':degree1, \n\t\t\t\t\t\t\t\t\t\t\t'college1':college1, 'year1':year1, \n\t\t\t\t\t\t\t\t\t\t\t'college3':college3, 'year3':year3, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tach3",
+        "kind": 5,
+        "importPath": "CV.views",
+        "description": "CV.views",
+        "peekOfCode": "\t\tach3 = request.POST.get('ach3', '') \n\t\treturn render(request, 'resume.html', {'name':name, \n\t\t\t\t\t\t\t\t\t\t\t'about':about, 'skill5':skill5, \n\t\t\t\t\t\t\t\t\t\t\t'age':age, 'email':email, \n\t\t\t\t\t\t\t\t\t\t\t'phone':phone, 'skill1':skill1, \n\t\t\t\t\t\t\t\t\t\t\t'skill2':skill2, 'skill3':skill3, \n\t\t\t\t\t\t\t\t\t\t\t'skill4':skill4, 'degree1':degree1, \n\t\t\t\t\t\t\t\t\t\t\t'college1':college1, 'year1':year1, \n\t\t\t\t\t\t\t\t\t\t\t'college3':college3, 'year3':year3, \n\t\t\t\t\t\t\t\t\t\t\t'degree3':degree3, 'lang1':lang1, ",
+        "detail": "CV.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Core.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
